@@ -1,0 +1,15 @@
+{
+  "AppCode" : "FSSC",
+  "ServiceUnitCode" : "ER",
+  "BizobjectCode" : "BXBZFanwz",
+  "BizobjectID" : "c3bf58bb-4eb7-4eb0-baf8-d9c24235f148",
+  "ProjectNameSpace" : "Inspur.GS.FSSC.ER.BXBZFanwz",
+  "SuDeploymentPath" : "apps/fssc/er",
+  "MetadataProjectName" : "bo-BXBZFanwzFront",
+  "MetadataPackageName" : "Inspur.GS.FSSC.ER.BXBZFanwz.Front",
+  "SuConfigDeploymentPath" : null,
+  "ProjectType" : "frontend",
+  "ProjectExtendItem" : [ {
+    "codelanguage" : "java"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "AppCode" : "FSSC",
+  "ServiceUnitCode" : "DF",
+  "BizobjectCode" : "ProjectsFanwz",
+  "BizobjectID" : "4de97d7c-9f8f-04a4-a825-859b00dd9a33",
+  "ProjectNameSpace" : "Inspur.GS.FSSC.DF.ProjectsFanwz",
+  "SuDeploymentPath" : "apps/fssc/df",
+  "MetadataProjectName" : "bo-ProjectsFanwz",
+  "MetadataPackageName" : "Inspur.GS.FSSC.DF.ProjectsFanwz",
+  "SuConfigDeploymentPath" : null,
+  "ProjectType" : "backend",
+  "ProjectExtendItem" : [ {
+    "codelanguage" : "java"
+  } ]
+}

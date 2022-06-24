@@ -1,0 +1,195 @@
+{
+  "Header" : {
+    "Code" : "ProjectFanwz_frm",
+    "Type" : "GSPViewModel",
+    "NameSpace" : "Inspur.GS.FSSC.DF.ProjectsFanwz",
+    "CertId" : null,
+    "Name" : "项目字典Fanwz_frm",
+    "FileName" : "ProjectFanwz_frm.vo",
+    "BizobjectID" : "4de97d7c-9f8f-04a4-a825-859b00dd9a33",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "a270caa9-61f5-42d1-963a-5e70677e6b0a",
+    "IsTranslating" : false
+  },
+  "Refs" : [ {
+    "DependentMetadata" : {
+      "ID" : "8ced655c-e818-4d42-b8ac-6e14624510d4",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.FSSC.DF.ProjectsFanwz",
+      "Code" : "ProjectsFanwz",
+      "Name" : "项目字典Fanwz",
+      "Type" : "GSPBusinessEntity",
+      "BizobjectID" : "4de97d7c-9f8f-04a4-a825-859b00dd9a33"
+    }
+  }, {
+    "DependentMetadata" : {
+      "ID" : "6d88a407-7a67-4588-be39-092c28a4c87b",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.FSSC.DF.ProjectsFanwz",
+      "Code" : "ProjectFanwz_frm.vo",
+      "Name" : "ProjectFanwz_frm.vo",
+      "Type" : "ResourceMetadata",
+      "BizobjectID" : "4de97d7c-9f8f-04a4-a825-859b00dd9a33"
+    }
+  } ],
+  "Content" : {
+    "ID" : "a270caa9-61f5-42d1-963a-5e70677e6b0a",
+    "Code" : "ProjectFanwz_frm",
+    "Name" : "项目字典Fanwz_frm",
+    "GeneratingAssembly" : "Inspur.GS.FSSC.DF.ProjectsFanwz.Vo",
+    "IsUseNamespaceConfig" : true,
+    "IsSimplifyGen" : true,
+    "MainObject" : {
+      "ID" : "9034ba6f-b055-4122-b7e1-d6dc108b1031",
+      "Code" : "ProjectsFanwz",
+      "Name" : "项目字典Fanwz",
+      "I18nResourceInfoPrefix" : "Inspur.GS.FSSC.DF.ProjectsFanwz.Vo.ProjectFanwz_frm.ProjectsFanwz",
+      "ContainElements" : [ {
+        "ID" : "407e84e9-5741-4709-9c56-f2bf4027dd1f",
+        "LabelID" : "ID",
+        "ChildAssociations" : [ ],
+        "Code" : "ID",
+        "Name" : "ID",
+        "MDataType" : "String",
+        "Length" : 36,
+        "IsRequire" : true,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "8ced655c-e818-4d42-b8ac-6e14624510d4",
+          "TargetObjId" : "b134bf15-8889-4742-b8f0-d1fdc917eba3",
+          "TargetObjectId" : "56cbd09c-7f29-43ba-883d-64e835febf10",
+          "TargetElementId" : "b134bf15-8889-4742-b8f0-d1fdc917eba3"
+        }
+      }, {
+        "ID" : "fc9e7215-2b70-414f-b3a4-8dc400228d78",
+        "LabelID" : "Version",
+        "ChildAssociations" : [ ],
+        "Code" : "Version",
+        "Name" : "Version",
+        "MDataType" : "DateTime",
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "8ced655c-e818-4d42-b8ac-6e14624510d4",
+          "TargetObjId" : "a9adcaa3-2093-4d24-9f04-f73b7825b8e6",
+          "TargetObjectId" : "56cbd09c-7f29-43ba-883d-64e835febf10",
+          "TargetElementId" : "a9adcaa3-2093-4d24-9f04-f73b7825b8e6"
+        }
+      }, {
+        "ID" : "034d37e8-5585-4a75-b4d9-94f665d4ac48",
+        "LabelID" : "ProjectCode",
+        "ChildAssociations" : [ ],
+        "Code" : "ProjectCode",
+        "Name" : "项目编号",
+        "MDataType" : "String",
+        "Length" : 36,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "8ced655c-e818-4d42-b8ac-6e14624510d4",
+          "TargetObjId" : "52e400c8-22f1-4620-9396-a272caa57c81",
+          "TargetObjectId" : "56cbd09c-7f29-43ba-883d-64e835febf10",
+          "TargetElementId" : "52e400c8-22f1-4620-9396-a272caa57c81"
+        }
+      }, {
+        "ID" : "2693df04-6fb9-4484-abac-8b6f8334ca5a",
+        "LabelID" : "ProjectName",
+        "ChildAssociations" : [ ],
+        "Code" : "ProjectName",
+        "Name" : "项目名称",
+        "MDataType" : "String",
+        "Length" : 512,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "8ced655c-e818-4d42-b8ac-6e14624510d4",
+          "TargetObjId" : "38d98453-8a14-49a6-b5ee-e7bcca68af8c",
+          "TargetObjectId" : "56cbd09c-7f29-43ba-883d-64e835febf10",
+          "TargetElementId" : "38d98453-8a14-49a6-b5ee-e7bcca68af8c"
+        }
+      }, {
+        "ID" : "47b0d767-813c-40e0-ac91-7ca55af99494",
+        "LabelID" : "ProjectType",
+        "ChildAssociations" : [ ],
+        "Code" : "ProjectType",
+        "Name" : "项目类别",
+        "MDataType" : "String",
+        "Length" : 36,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "8ced655c-e818-4d42-b8ac-6e14624510d4",
+          "TargetObjId" : "96189630-e651-4554-bdb0-5dcf2c333677",
+          "TargetObjectId" : "56cbd09c-7f29-43ba-883d-64e835febf10",
+          "TargetElementId" : "96189630-e651-4554-bdb0-5dcf2c333677"
+        }
+      }, {
+        "ID" : "60e4aa39-29c1-44c1-abdf-fd09a81883a4",
+        "LabelID" : "ProjectNote",
+        "ChildAssociations" : [ ],
+        "Code" : "ProjectNote",
+        "Name" : "项目备注",
+        "MDataType" : "Text",
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "8ced655c-e818-4d42-b8ac-6e14624510d4",
+          "TargetObjId" : "242166b0-dda2-42ff-bd5e-20a5f1a04f42",
+          "TargetObjectId" : "56cbd09c-7f29-43ba-883d-64e835febf10",
+          "TargetElementId" : "242166b0-dda2-42ff-bd5e-20a5f1a04f42"
+        }
+      }, {
+        "ID" : "c8e88808-9c3e-419e-bf0f-4290828bb220",
+        "LabelID" : "ProjectSum",
+        "ChildAssociations" : [ ],
+        "Code" : "ProjectSum",
+        "Name" : "项目金额",
+        "MDataType" : "Decimal",
+        "Length" : 8,
+        "Precision" : 2,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "8ced655c-e818-4d42-b8ac-6e14624510d4",
+          "TargetObjId" : "8288c79b-ace2-488b-a01c-97e2b1360fd0",
+          "TargetObjectId" : "56cbd09c-7f29-43ba-883d-64e835febf10",
+          "TargetElementId" : "8288c79b-ace2-488b-a01c-97e2b1360fd0"
+        }
+      } ],
+      "RefObjectName" : "6009ed8f-bf91-43c4-9a3d-a00373a2cb8e",
+      "ColumnGenerateID" : {
+        "ElementID" : "407e84e9-5741-4709-9c56-f2bf4027dd1f",
+        "GenerateType" : "Guid",
+        "ColumnParameters" : [ ]
+      },
+      "BelongModelID" : "a270caa9-61f5-42d1-963a-5e70677e6b0a",
+      "Mapping" : {
+        "MapType" : "BEObject",
+        "TargetMetadataId" : "8ced655c-e818-4d42-b8ac-6e14624510d4",
+        "TargetObjId" : "56cbd09c-7f29-43ba-883d-64e835febf10"
+      }
+    },
+    "Variables" : {
+      "ID" : "c51083d1-8f4f-46d4-8c3c-4b6ef0a65f6c",
+      "Code" : "ProjectFanwz_frmVariable",
+      "Name" : "项目字典Fanwz_frm变量",
+      "I18nResourceInfoPrefix" : ""
+    },
+    "ConvertMsg" : false,
+    "Mapping" : {
+      "MapType" : "BizEntity",
+      "TargetMetadataId" : "8ced655c-e818-4d42-b8ac-6e14624510d4",
+      "TargetObjId" : "8ced655c-e818-4d42-b8ac-6e14624510d4"
+    },
+    "ExtendProperties" : { }
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "FSSC/DF/ProjectsFanwz/bo-projectsfanwzfront/metadata/components",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

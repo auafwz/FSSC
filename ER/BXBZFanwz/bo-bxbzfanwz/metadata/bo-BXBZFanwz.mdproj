@@ -1,0 +1,46 @@
+{
+  "NameSpace" : "Inspur.GS.FSSC.ER.BXBZFanwz",
+  "Name" : "bo-BXBZFanwz",
+  "ProjectFileName" : "bo-BXBZFanwz.mdproj",
+  "ProjectPath" : "G:/igix/Projects/Project2/FSSC/ER/BXBZFanwz/bo-bxbzfanwz/metadata",
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.FSSC.ER.BXBZFanwz",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ {
+    "Name" : "Inspur.GS.Gsp.Sys.SysOrg",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "generation"
+  }, {
+    "Name" : "Inspur.GS.Gsp.Sys.User",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "generation"
+  } ],
+  "ProjectRefs" : null,
+  "ExternalRefs" : null,
+  "MdpkgRefs" : null,
+  "MavenPackageRefs" : [ {
+    "GroupId" : "com.inspur.gs",
+    "ArtifactId" : "gsp-sys-sysorg-api",
+    "Version" : "m0.1.17"
+  }, {
+    "GroupId" : "com.inspur.gs",
+    "ArtifactId" : "gsp-sys-user-api",
+    "Version" : "m0.1.5"
+  } ],
+  "CsprojAssemblyName" : "Inspur.GS.FSSC.ER.BXBZFanwz",
+  "ID" : "beda28e6-8521-4534-8b80-110e53d5a5e9"
+}

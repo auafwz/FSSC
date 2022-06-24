@@ -1,0 +1,46 @@
+{
+  "Header" : {
+    "Code" : "predefinePageflow",
+    "Type" : "PageFlowMetadata",
+    "NameSpace" : "Inspur.GS.FSSC.ER.BXBZFanwz",
+    "CertId" : null,
+    "Name" : "predefinePageflow",
+    "FileName" : "predefinePageflow.pf",
+    "BizobjectID" : "c3bf58bb-4eb7-4eb0-baf8-d9c24235f148",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "22bf092e-c48b-4fbc-9411-00da51fe1fa4",
+    "IsTranslating" : false
+  },
+  "Refs" : [ ],
+  "Content" : {
+    "code" : null,
+    "name" : null,
+    "id" : "22bf092e-c48b-4fbc-9411-00da51fe1fa4",
+    "project" : {
+      "name" : "bo-bxbzfanwzfront"
+    },
+    "pages" : [ {
+      "id" : "2782b146-ee50-4f5a-be4b-0a22b5e05e4f",
+      "code" : "BXXESZFanwz",
+      "name" : "报销限额设置Fanwz",
+      "fileName" : "BXXESZFanwz.frm",
+      "relativePath" : "FSSC/ER/BXBZFanwz/bo-bxbzfanwzfront/metadata/components",
+      "formUri" : null,
+      "routeUri" : "BXXESZFanwz",
+      "routeParams" : null
+    } ],
+    "entry" : "BXXESZFanwz",
+    "routes" : null,
+    "appCode" : null,
+    "appName" : null,
+    "publishes" : null
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "",
+  "ExtendProperty" : null,
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}

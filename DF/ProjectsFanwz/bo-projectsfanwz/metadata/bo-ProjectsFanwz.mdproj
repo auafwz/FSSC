@@ -1,0 +1,22 @@
+{
+  "NameSpace" : "Inspur.GS.FSSC.DF.ProjectsFanwz",
+  "Name" : "bo-ProjectsFanwz",
+  "ProjectFileName" : null,
+  "ProjectPath" : null,
+  "MetadataPackageInfo" : {
+    "Name" : "Inspur.GS.FSSC.DF.ProjectsFanwz",
+    "Version" : {
+      "VersionInt" : null,
+      "VersionString" : "1.0.0"
+    },
+    "Location" : null,
+    "ProcessMode" : "interpretation"
+  },
+  "MetadataPackageRefs" : [ ],
+  "ProjectRefs" : null,
+  "ExternalRefs" : null,
+  "MdpkgRefs" : null,
+  "MavenPackageRefs" : [ ],
+  "CsprojAssemblyName" : null,
+  "ID" : "b26e74fd-b778-4d91-abf6-dcaaf05b6593"
+}

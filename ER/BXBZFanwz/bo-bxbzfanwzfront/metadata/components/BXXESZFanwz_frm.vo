@@ -1,0 +1,327 @@
+{
+  "Header" : {
+    "Code" : "BXXESZFanwz_frm",
+    "Type" : "GSPViewModel",
+    "NameSpace" : "Inspur.GS.FSSC.ER.BXBZFanwz",
+    "CertId" : null,
+    "Name" : "报销限额设置Fanwz_frm",
+    "FileName" : "BXXESZFanwz_frm.vo",
+    "BizobjectID" : "c3bf58bb-4eb7-4eb0-baf8-d9c24235f148",
+    "Language" : null,
+    "Extendable" : false,
+    "ID" : "a77fa09d-e706-4e97-9c59-f9d9cf547628",
+    "IsTranslating" : false
+  },
+  "Refs" : [ {
+    "DependentMetadata" : {
+      "ID" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.FSSC.ER.BXBZFanwz",
+      "Code" : "BXBZFanwz",
+      "Name" : "报销限额设置Fanwz",
+      "Type" : "GSPBusinessEntity",
+      "BizobjectID" : "c3bf58bb-4eb7-4eb0-baf8-d9c24235f148"
+    }
+  }, {
+    "DependentMetadata" : {
+      "ID" : "9c10661f-1bdc-4d08-93f5-9ec951052cc1",
+      "CertId" : null,
+      "NameSpace" : "Inspur.GS.FSSC.ER.BXBZFanwz",
+      "Code" : "BXXESZFanwz_frm.vo",
+      "Name" : "BXXESZFanwz_frm.vo",
+      "Type" : "ResourceMetadata",
+      "BizobjectID" : "c3bf58bb-4eb7-4eb0-baf8-d9c24235f148"
+    }
+  } ],
+  "Content" : {
+    "ID" : "a77fa09d-e706-4e97-9c59-f9d9cf547628",
+    "Code" : "BXXESZFanwz_frm",
+    "Name" : "报销限额设置Fanwz_frm",
+    "GeneratingAssembly" : "Inspur.GS.FSSC.ER.BXBZFanwz.Vo",
+    "IsUseNamespaceConfig" : true,
+    "IsSimplifyGen" : true,
+    "MainObject" : {
+      "ID" : "c42c74b2-8f8e-47d9-9307-0a86c5f55539",
+      "Code" : "BXBZFanwz",
+      "Name" : "报销限额设置Fanwz",
+      "I18nResourceInfoPrefix" : "Inspur.GS.FSSC.ER.BXBZFanwz.Vo.BXXESZFanwz_frm.BXBZFanwz",
+      "ContainElements" : [ {
+        "ID" : "3c8ecab6-a5c8-49b2-9385-c9672cb5dd47",
+        "LabelID" : "ID",
+        "ChildAssociations" : [ ],
+        "Code" : "ID",
+        "Name" : "ID",
+        "MDataType" : "String",
+        "Length" : 36,
+        "IsRequire" : true,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+          "TargetObjId" : "4d579650-5801-4c10-a0c2-b59e784fc3e8",
+          "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+          "TargetElementId" : "4d579650-5801-4c10-a0c2-b59e784fc3e8"
+        }
+      }, {
+        "ID" : "fdc96510-ccac-4002-ac01-c018aee6caa9",
+        "LabelID" : "Version",
+        "ChildAssociations" : [ ],
+        "Code" : "Version",
+        "Name" : "Version",
+        "MDataType" : "DateTime",
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+          "TargetObjId" : "6c0928c8-92da-4677-917c-43f42da0d5bb",
+          "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+          "TargetElementId" : "6c0928c8-92da-4677-917c-43f42da0d5bb"
+        }
+      }, {
+        "ID" : "a34bc496-b70a-43df-a53a-f96b9aca19e5",
+        "LabelID" : "BXRY",
+        "ChildAssociations" : [ {
+          "ID" : "87bda9ce-a353-4ffe-9404-ffac55d842cc",
+          "RefElementCollection" : [ {
+            "ID" : "a121d02a-6898-4315-bc91-7011011e1a72",
+            "LabelID" : "BXRY_Name",
+            "ChildAssociations" : [ ],
+            "Code" : "Name",
+            "Name" : "名称",
+            "MDataType" : "String",
+            "Length" : 36,
+            "IsMultiLanguage" : true,
+            "IsRefElement" : true,
+            "RefElementID" : "94fd1572-613c-4973-bf79-12e33c16a9ec",
+            "EnableRtrim" : true,
+            "Mapping" : {
+              "MapType" : "Element",
+              "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+              "TargetObjId" : "fe921810-b850-4d29-a82d-894f81320e50",
+              "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+              "TargetElementId" : "fe921810-b850-4d29-a82d-894f81320e50"
+            }
+          } ],
+          "RefModelID" : "c31ae4d9-8ee1-43ec-a526-09720fb3f4c9",
+          "RefModelName" : "用户",
+          "RefModelCode" : "GspUser",
+          "RefModelPkgName" : "Inspur.GS.Gsp.Sys.User",
+          "RefObjectID" : "c8b9b61f-fc8b-4d5f-921b-4f56a3b00a08",
+          "RefObjectCode" : "GspUser",
+          "RefObjectName" : "用户",
+          "KeyCollection" : [ {
+            "SourceElement" : "82e52824-f8e1-46a1-841f-0f65582eafac",
+            "SourceElementDisplay" : "ID",
+            "TargetElement" : "e99bdf9c-ab32-4557-a091-464fdbe721dc",
+            "TargetElementDisplay" : "人员",
+            "RefDataModelName" : ""
+          } ],
+          "AssoModelInfo" : {
+            "ModelConfigId" : "GspUser",
+            "MainObjCode" : "GspUser"
+          }
+        } ],
+        "Code" : "BXRY",
+        "Name" : "人员",
+        "ObjectType" : "Association",
+        "MDataType" : "String",
+        "Length" : 36,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+          "TargetObjId" : "a10ea27d-db10-47b8-820b-a33d9eb84644",
+          "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+          "TargetElementId" : "a10ea27d-db10-47b8-820b-a33d9eb84644"
+        }
+      }, {
+        "ID" : "f6ac04c5-16f3-41e7-98cc-ae5de10ffd6a",
+        "LabelID" : "BXDW",
+        "ChildAssociations" : [ {
+          "ID" : "5ded097c-b4b9-4a0f-a207-672e8442cf96",
+          "RefElementCollection" : [ {
+            "ID" : "58c3aac5-cd78-47cc-9777-57b01b1081d1",
+            "LabelID" : "BXDW_name",
+            "ChildAssociations" : [ ],
+            "Code" : "name",
+            "Name" : "名称",
+            "MDataType" : "String",
+            "Length" : 100,
+            "IsMultiLanguage" : true,
+            "IsRefElement" : true,
+            "RefElementID" : "a824ff6d-b08f-4b5c-b707-997d56760fb4",
+            "EnableRtrim" : true,
+            "Mapping" : {
+              "MapType" : "Element",
+              "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+              "TargetObjId" : "8bb65962-ba3e-4025-81fb-3a69c1b6b876",
+              "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+              "TargetElementId" : "8bb65962-ba3e-4025-81fb-3a69c1b6b876"
+            }
+          } ],
+          "RefModelID" : "2bedfc30-4b06-49ff-bbfe-3b996a5c2919",
+          "RefModelName" : "系统组织",
+          "RefModelCode" : "SysOrg",
+          "RefModelPkgName" : "Inspur.GS.Gsp.Sys.SysOrg",
+          "RefObjectID" : "51b2e509-92c6-4131-b395-6cf92b6e0bab",
+          "RefObjectCode" : "SysOrg",
+          "RefObjectName" : "系统组织",
+          "KeyCollection" : [ {
+            "SourceElement" : "0d45aea4-1327-403f-bda2-c9b5a933587b",
+            "SourceElementDisplay" : "ID",
+            "TargetElement" : "a4a92171-fddf-48b6-9abd-1497635b0039",
+            "TargetElementDisplay" : "单位",
+            "RefDataModelName" : ""
+          } ],
+          "AssoModelInfo" : {
+            "ModelConfigId" : "Inspur.GS.Gsp.Sys.SysOrg.SysOrg",
+            "MainObjCode" : "SysOrg"
+          }
+        } ],
+        "Code" : "BXDW",
+        "Name" : "单位",
+        "ObjectType" : "Association",
+        "MDataType" : "String",
+        "Length" : 36,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+          "TargetObjId" : "8478df8d-275e-490d-9f00-239e6686eb4d",
+          "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+          "TargetElementId" : "8478df8d-275e-490d-9f00-239e6686eb4d"
+        }
+      }, {
+        "ID" : "88937e19-ffc9-4673-8bae-c9b152038f4f",
+        "LabelID" : "JE",
+        "ChildAssociations" : [ ],
+        "Code" : "JE",
+        "Name" : "金额",
+        "MDataType" : "Decimal",
+        "Length" : 8,
+        "Precision" : 2,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+          "TargetObjId" : "8641b03e-5d85-43b6-a788-011a2ef756cf",
+          "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+          "TargetElementId" : "8641b03e-5d85-43b6-a788-011a2ef756cf"
+        }
+      }, {
+        "ID" : "45aa3953-c512-42ca-8062-b8befd5fa390",
+        "LabelID" : "KSRQ",
+        "ChildAssociations" : [ ],
+        "Code" : "KSRQ",
+        "Name" : "开始日期",
+        "MDataType" : "Date",
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+          "TargetObjId" : "eb7937a4-0d40-45da-bc61-5e8eef8665d9",
+          "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+          "TargetElementId" : "eb7937a4-0d40-45da-bc61-5e8eef8665d9"
+        }
+      }, {
+        "ID" : "5973d1a1-d4c0-490e-a0c0-340b63b9f938",
+        "LabelID" : "JSRQ",
+        "ChildAssociations" : [ ],
+        "Code" : "JSRQ",
+        "Name" : "结束日期",
+        "MDataType" : "Date",
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+          "TargetObjId" : "a667af6b-7ab6-4e8d-a57e-3ae0241941b0",
+          "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+          "TargetElementId" : "a667af6b-7ab6-4e8d-a57e-3ae0241941b0"
+        }
+      }, {
+        "ID" : "9c4f692b-f967-472b-9eef-cb73abada6fa",
+        "LabelID" : "BZ",
+        "ChildAssociations" : [ ],
+        "Code" : "BZ",
+        "Name" : "币种",
+        "MDataType" : "String",
+        "Length" : 10,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+          "TargetObjId" : "1afe5b0d-9303-4edd-9955-381473dbb331",
+          "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+          "TargetElementId" : "1afe5b0d-9303-4edd-9955-381473dbb331"
+        }
+      }, {
+        "ID" : "91fb0df2-466a-46af-bdeb-a516e2ab9548",
+        "LabelID" : "QT",
+        "ChildAssociations" : [ ],
+        "Code" : "QT",
+        "Name" : "启用标志",
+        "MDataType" : "Boolean",
+        "Length" : 1,
+        "EnableRtrim" : true,
+        "Mapping" : {
+          "MapType" : "Element",
+          "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+          "TargetObjId" : "b57c636c-4b29-404c-b5be-aeafd194f5a3",
+          "TargetObjectId" : "20dde9d2-82e5-458d-bb55-729035633b2b",
+          "TargetElementId" : "b57c636c-4b29-404c-b5be-aeafd194f5a3"
+        }
+      } ],
+      "RefObjectName" : "95933088-0012-4c78-a551-938b913ffb81",
+      "ColumnGenerateID" : {
+        "ElementID" : "3c8ecab6-a5c8-49b2-9385-c9672cb5dd47",
+        "GenerateType" : "Guid",
+        "ColumnParameters" : [ ]
+      },
+      "BelongModelID" : "a77fa09d-e706-4e97-9c59-f9d9cf547628",
+      "Mapping" : {
+        "MapType" : "BEObject",
+        "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+        "TargetObjId" : "20dde9d2-82e5-458d-bb55-729035633b2b"
+      }
+    },
+    "Variables" : {
+      "ID" : "2d9b8de4-369a-4395-a1b8-f46007b2be30",
+      "Code" : "BXXESZFanwz_frmVariable",
+      "Name" : "报销限额设置Fanwz_frm变量",
+      "I18nResourceInfoPrefix" : ""
+    },
+    "ConvertMsg" : false,
+    "Mapping" : {
+      "MapType" : "BizEntity",
+      "TargetMetadataId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5",
+      "TargetObjId" : "b6a6d7eb-ec54-4a40-8c53-0b8be2a20dd5"
+    },
+    "ValueHelpConfigs" : [ {
+      "ElementID" : "BXBZFanwz/bxrY_BXRY_Name",
+      "HelperID" : "915a0b20-975a-4df1-8cfd-888c3dda0009",
+      "FilterExpression" : null,
+      "CustomizationInfo" : null,
+      "EnableCustomHelpAuth" : false,
+      "HelpExtend" : {
+        "BeforeHelp" : [ ]
+      }
+    }, {
+      "ElementID" : "BXBZFanwz/bxdW_BXDW_name",
+      "HelperID" : "b524a702-7323-4d46-998e-5ba0c6abcd49",
+      "FilterExpression" : null,
+      "CustomizationInfo" : null,
+      "EnableCustomHelpAuth" : false,
+      "HelpExtend" : {
+        "BeforeHelp" : [ ]
+      }
+    } ],
+    "ExtendProperties" : { }
+  },
+  "ExtendRule" : null,
+  "RelativePath" : "FSSC/ER/BXBZFanwz/bo-bxbzfanwzfront/metadata/components",
+  "ExtendProperty" : "",
+  "Extended" : false,
+  "PreviousVersion" : null,
+  "Version" : null,
+  "Properties" : null
+}
